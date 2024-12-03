@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+
+
+footer {
+    background: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: flex;
+    bottom: 0;
+    width: 100%;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; 
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.item {
+    flex: 1 1 calc(33.333% - 10px); 
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+#gallery {
+    text-align: center; /* Menggeser teks ke tengah */
+
+}
+
+#hadua {
+    font-size: 36px; /* Mengatur ukuran font sesuai kebutuhan */
+    font-weight: bold; /* Mengatur ketebalan font (opsional) */
+    margin: 20px 0; /* Jarak atas dan bawah */
+    text-align: center; /* Menggeser teks ke tengah */
+}
+
+.jumbotron {
+    height: 100%; /* Atur tinggi jumbotron sesuai kebutuhan */
+    display: flex;
+    align-items: center; /* Vertically center the content */
+    justify-content: center; /* Horizontally center the content */
+    text-align: center; /*
+}
+
+.jumbotron h1, .jumbotron p {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Menambahkan bayangan pada teks untuk meningkatkan keterbacaan */
+}
+
+.container.m {
+    margin-top: 150px;
+}
+.col-md-6 img {
+    width: 200%;
+    height: auto;
+}
+.col-md-6 {
+    margin-top: 100px;
+}
+h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+p {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+/* Styling for buttons */
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 5px;
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 10px;
+    transition: all 0.3s ease;
+}
+.btn-white {
+    background-color: white;
+    color: #333;
+    border: 2px solid #333;
+}
+.btn-white:hover {
+    background-color: #333;
+    color: white;
+}
+.btn-transparent {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+.btn-transparent:hover {
+    background-color: white;
+    color: #333;
+}
